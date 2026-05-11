@@ -82,14 +82,14 @@ each solar day, enabling sidereal filtering for multipath mitigation.
 
 ```
 project_8/
-├── src/
-│   └── project8_multipath.ipynb   ← Main notebook
-├── output/                         ← Generated plots (auto-filled on run)
+├── Output/                         ← Generated plots (auto-filled on run)
 │   ├── plot1_mp1_timeseries.png
 │   ├── plot2_mp1_heatmap.png
 │   ├── plot3_mp1_rms_ranking.png
 │   ├── plot4_mp_histogram.png
 │   └── plot5_sidereal_repeat.png
+├── src/
+│   └── project8_multipath.ipynb   ← Main python
 ├── requirements.txt
 ├── LICENSE
 └── README.md
