@@ -94,10 +94,6 @@ property used in multipath mitigation (sidereal filtering).
 # Step7: Plot 4: MP1 Distribution Histogram
 # Step8: Plot 5: Sidereal Repeat Check
 =============================================================================
-"""
-
-pip install --upgrade georinex
-
 # ─────────────────────────────────────────────────────────────────
 # Step 1 — Install & Import Libraries
 # ─────────────────────────────────────────────────────────────────
