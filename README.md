@@ -1,10 +1,10 @@
-# 📡 Project 7 — Multipath Analysis
+# Project 7 — Multipath Analysis
 
 > **MP1 · MP2 · Arc Splitting · RMS Ranking · Sidereal Repeat | GPS | Auckland, NZ**
 
 ---
 
-## 📌 Overview
+## Overview
 
 Multipath is one of the most challenging GNSS error sources — it cannot be modelled
 from first principles because it depends entirely on the local environment around the
@@ -13,13 +13,13 @@ all GPS satellites and performs a full site characterisation.
 
 | Metric | Threshold | Meaning |
 |--------|-----------|---------|
-| RMS(MP1) < 0.30 m | ✅ Clean | Low multipath environment |
-| RMS(MP1) 0.30–0.50 m | ⚠️ Moderate | Some nearby reflectors |
-| RMS(MP1) > 0.50 m | ❌ High | Significant multipath |
+| RMS(MP1) < 0.30 m |  Clean | Low multipath environment |
+| RMS(MP1) 0.30–0.50 m |  Moderate | Some nearby reflectors |
+| RMS(MP1) > 0.50 m |  High | Significant multipath |
 
 ---
 
-## 📐 Key Equations
+## Key Equations
 
 ### MP1 — L1 code multipath proxy:
 ```
@@ -46,7 +46,7 @@ Multipath repeats every sidereal day — shifted 3m 56s earlier in solar time.
 
 ---
 
-## 🖼️ Output Plots
+## Output Plots
 
 All plots are saved in `output/`.
 
@@ -78,7 +78,7 @@ each solar day, enabling sidereal filtering for multipath mitigation.
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```
 project_8/
@@ -97,7 +97,7 @@ project_8/
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### 1. Install dependencies
 ```bash
@@ -121,7 +121,7 @@ jupyter notebook src/project8_multipath.ipynb
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 | Package | Purpose |
 |---------|---------|
@@ -133,7 +133,7 @@ jupyter notebook src/project8_multipath.ipynb
 
 ---
 
-## 👤 Author
+## Author
 
 **Hakim El Azzouzi**
 MSc Global Navigation Satellite Systems
@@ -144,13 +144,13 @@ Mohammed First University, Oujda, Morocco
 
 ---
 
-## 📜 License
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-## 🔗 GNSS Observation RINEX Series
+## GNSS Observation RINEX Series
 
 | # | Project |
 |---|---------|
